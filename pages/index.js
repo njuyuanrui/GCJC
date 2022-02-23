@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>国产良心 NFT - 全宇宙限量 1000 的中国国产良心 NFT！</title>
+        <title>国产韭菜 NFT - 全国限量 1000！反对国产镰刀，保护我方韭菜。</title>
         <meta name="description" content="中国人不骗中国人，放心！" />
         <link rel="icon" href="/favicon.png" />
 

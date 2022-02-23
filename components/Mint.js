@@ -201,7 +201,7 @@ function MintSection() {
     );
   }
 
-  if (progress >= 1000 || status === "2") {
+  if (progress >= 5000 || status === "2") {
     mintButton = (
       <StyledMintButton
         style={{
@@ -255,7 +255,7 @@ function MintSection() {
         您的钱包： <ConnectWallet />{" "}
         {fullAddress && (
           <span style={{ marginLeft: 10 }}>
-            可以铸造 {2 - numberMinted} 个。
+            可以铸造 {5 - numberMinted} 个。
           </span>
         )}
       </div>
@@ -263,10 +263,10 @@ function MintSection() {
       {mintButton}
 
       <div style={{ marginTop: 20, fontSize: 20, textAlign: "center" }}>
-        铸造进度：{progress === null ? "请先连接钱包" : progress} / 1000，价格
-        0.01 ETH 一个，每个钱包最多 2 个，每人每天 2 个钱包。
+        铸造进度：{progress === null ? "请先连接钱包" : progress} / 5000，价格
+        0.01 ETH 一个，每个钱包最多 5 个。
         <br />
-        今天，我们都是良心铸造人！
+        今天，我们都是国产韭菜！
       </div>
     </div>
   );
