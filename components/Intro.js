@@ -131,7 +131,7 @@ function Intro() {
           </Tooltip>
           <Tooltip title="官方 Twitter">
             <a
-              href="https://twitter.com/8716774umy"
+              href="https://twitter.com/guochanjiucai"
               target="_blank"
               rel="noreferrer"
             >
