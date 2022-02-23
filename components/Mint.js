@@ -266,7 +266,7 @@ function MintSection() {
         铸造进度：{progress === null ? "请先连接钱包" : progress} / 5000，价格
         0.01 ETH 一个，每个钱包最多 5 个。
         <br />
-        今天，我们都是国产韭菜！
+        今天，我们都是国产韭菜！ 
       </div>
     </div>
   );
